@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(daytime_server)
+set(sources appMain.cpp)
+set(headers )
+include_directories(../../lib)
+add_executable(daytime_server ${sources} ${headers})
